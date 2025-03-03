@@ -1,0 +1,14 @@
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\bin\Debug\net8.0\CMT17OOP.exe
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\bin\Debug\net8.0\CMT17OOP.deps.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\bin\Debug\net8.0\CMT17OOP.runtimeconfig.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\bin\Debug\net8.0\CMT17OOP.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\bin\Debug\net8.0\CMT17OOP.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.AssemblyInfoInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.AssemblyInfo.cs
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.csproj.CoreCompileInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\refint\CMT17OOP.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.genruntimeconfig.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\ref\CMT17OOP.dll
