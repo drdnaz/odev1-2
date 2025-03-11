@@ -12,3 +12,4 @@ C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\refint\CMT17OOP.d
 C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.pdb
 C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.genruntimeconfig.cache
 C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\ref\CMT17OOP.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\obj\Debug\net8.0\CMT17OOP.sourcelink.json

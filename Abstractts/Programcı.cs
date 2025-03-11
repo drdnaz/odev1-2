@@ -10,7 +10,7 @@ namespace CMT17OOP.Abstractts
     {
         public override double maasinizNedir()
         {
-            return 30000.0;
+            return 40000.0;
         }
     }
 }

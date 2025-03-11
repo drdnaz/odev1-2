@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.Collections;
 using CMT17OOP.Abstract2;
 using CMT17OOP.Abstractts;
 using CMT17OOP.Classes;
@@ -134,3 +135,183 @@ toplamltyakiti += pc.nekadarYakiyor();
 
 Console.WriteLine("Toplam: " + toplamltyakiti + " " + "lt Yakmıştır.");
 
+
+
+ArrayList arr = new ArrayList();
+
+//1. aynı türden verileri bir isim altında tutmamızı sağlar
+//hangiturdeveri[] diziAdi = new hangiturdeveri[7];
+//dizilerin ilk elamanı sıfırdan 
+string[] gunler = new string[7];
+gunler[0] = "pazartesi";
+gunler[1] = "salı";
+gunler[2] = "çarşamba";
+gunler[3] = "perşembe";
+gunler[4] = "cuma";
+gunler[5] = "cumartesi";
+gunler[6] = "pazar";
+
+for (int sayac2 = 0; sayac2 < gunler.Length; sayac2++)
+{
+    Console.WriteLine(gunler[sayac2]);
+}
+
+//if(kosul) { yapılması gereken neyse o yapılır  } else if(kosul) { neyse yapılacak işlemler yapılır  }  else { yapılması gereken neyse o yapılır   }
+int yas = 19;
+if(yas >0 && yas <= 18)
+{
+    Console.WriteLine("küçüksünüz");
+
+}
+else if (yas> 18 && yas<= 35) {
+    Console.WriteLine("gençsiniz");
+}
+else if (yas>35 && yas <= 55)
+{
+    Console.WriteLine("yetişkinsiniz");
+
+}else if (yas>55 && yas<=75)
+{
+    Console.WriteLine("yaşlısınız");
+}else if (yas>75 && yas <=99)
+{
+    Console.WriteLine("çok yaşlısınız");
+
+ }else
+{
+    Console.WriteLine("hiç doğmadınız ya da çoktan öldünüz!!");
+
+}
+
+/*
+--Soru : 
+
+kişinin doğum yılını parametre alan ve geriye bu doğum yılından şu anki bulunduğumuz
+yılı çıkartıp ekrana yaşınız budur yazan kodu nasıl yazardınız
+
+1980  Yaşınız : 45
+    */
+
+int gelenYas = i.yasHesapla(1988);
+Console.WriteLine("yaşınız: " + gelenYas);
+
+// Kişinin yaşı 0 dan büyükse ve 18 den küçük ve eşitse 
+// kişinin yaşı 18 den büyük 35 den küçük ve eşitse gençsiniz yazsın
+//kişinin yaşı 35 den büyük 55 denküçük ve eşitse yetişkinsiniz 
+/*kişinin 55 den büyük 75 den küçük ve eşitse
+yaşlısınız
+kişinin yaşı 75 den büyük 99 dan küçük ve eşitse
+çok yaşlısınız
+ya hiç doğmadınızı yada çoktan öldünüz!!
+
+
+koşulları kontrol eden vereyi string tipinde değer dönen
+bir metodumuz olacak
+
+--Ödev : 2
+
+arabanın yaşı 0 dan büyükse ve 10 den küçük ve eşitse
+arabanız yeni
+kişinin yaşı 10 den büyük 20 den küçük ve eşitse
+servise götürmeniz gerekibilir
+kişinin yaşı 20 den büyük 30 den küçük ve eşitse
+arabanız hurdaya çıkabilir
+
+ya hiç üretilmedi yada arabanız trafikten men edildi
+
+
+--if yerine switch case araştırma ödevi : 
+*/
+
+
+//for(int sayac=0; sayac <10; sayac++ )    {  yapılması gereken işlemler    }
+for (int sayac = 0; sayac < 10; sayac++)
+{
+    Console.WriteLine("Merhaba Dünya : " + sayac);
+}
+
+
+
+//dizinin 2 farkıl tanımı
+//n elemanlı bir dizi tanımlamıştık
+//hangitürdeveri[] diziAdi = new {  };
+int[] sayilar = { 3, 5, 7, 8, 11, 22, 33, 44, 55, 66, 88, 99, 101, 104 };
+
+int sayiToplam = 0;
+
+for (int x = 0; x < sayilar.Length; x++)
+{
+    Console.WriteLine("Sıradaki Sayı : " + sayilar[x]);
+    //  sayiToplam = sayiToplam + sayilar[x];
+    sayiToplam += sayilar[x];
+}
+
+Console.WriteLine("Sayıların toplamı : " + sayiToplam);
+
+/*
+
+
+C# dilinde kullanılan erişim belirleyiciler protected, private, public, internal'dır.
+Sınıfların ve üyelerinin erişilebilirliğini belirlerler.
+Public : Herkesin Erişimine açık, Proje içindeki tüm sınıflar ve hatta farklı projelerden bile erişilebilir.
+Örnek olarak otobüs durakları, metro istasyonları herkesin erişimine açıktır. Şehirde yaşayan herkes durağa gelip bekleyebilir.
+
+public class OtobusDuragi
+{
+    public string DurakAdi = "Merkez Durak";
+
+    public void DuraktaBekle()
+    {
+        Console.WriteLine("Bu durakta herkes bekleyebilir.");
+    }
+}
+böyle bir kodlama yapabiliriz.Böylece herkes bu bilgiye erişebilecektir.
+
+Private : Sadece aynı sınıf içinde yani yalnızca tanımlandığı sınıf içinde erişilebilirler. Mesela örnek verecek olursam bir telefonun ekran kilidi şifresi sadece telefonun sahibi tarafından bilinmesi istenir. Başkaları bu şifreye erişmesini istemeyiz. Bu yüzden Private'i kullanırız.
+public class Telefon
+{
+    private string sifre = "naz22"; 
+
+    private void sifreyiGoster()
+    {
+        Console.WriteLine("Şifre: " + sifre);
+    }
+}
+kod olarak da böyle kullanabilirim.
+
+Protected : Miras alan sınıflara açık olandır. Örnek verecek olursam bir ailede soyadı, aile üyeleri arasında paylaşılır ama başkaları değiştiremez. Soyadı sadece aile içindekiler tarafından kullanılır.
+public class Aile
+{
+    protected string soyad = "Yılmaz"; // sadece aile üyeleri görmesi için böyle kullandım.
+
+public class Cocuk : Aile
+{
+    public void soyadiniGoster()
+    {
+        Console.WriteLine("Benim soyadım: " + soyad);     }
+}
+kod olarak da bu örneği verebilirim.
+
+internal : Aynı proje içinde erişilebilir,farklı bir projeden erişelemez.
+örnek olarak üniversite öğrencilerinden verebilirim. Sadece bizler üniversitenin öğrenci portalına erişim sağlayabiliriz.
+internal class OgrenciPortali
+{
+    internal void girisYap()
+    {
+        Console.WriteLine("Sadece üniversite öğrencileri erişebilir.");
+    }
+}
+
+Erişim Belirleyicilerin OOP'deki Rolü :  
+Veri gizliliğini sağlayarak güvenli yapı oluşturur. Kodun yönetilebilir olmasını sağlar Bu sayede gereksiz erişim açmak karmaşıklık ve güvenlik sorunlarına yol açmasını engeller.
+
+
+*/
+User kullanici = new User();
+kullanici.SetAdSoyad("Naz Babaoğlu");
+kullanici.SetYas(25);
+
+// Email doğrudan atanabilir çünkü public
+kullanici.email = "nazbabaoglu@gmail.com";
+
+kullanici.BilgileriGoster();
