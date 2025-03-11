@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 using System.Collections;
+using System.Xml.Linq;
 using CMT17OOP.Abstract2;
 using CMT17OOP.Abstractts;
 using CMT17OOP.Classes;
+using CM17OOP.Classes.Matematik;
 
 
 Console.WriteLine("Hello, World!");
@@ -249,7 +251,8 @@ for (int x = 0; x < sayilar.Length; x++)
 Console.WriteLine("Sayıların toplamı : " + sayiToplam);
 
 /*
-
+ÖDEV Access Modifiers (Erişim Belirleyicileri)
+ Değişkenler ve Metotlar
 
 C# dilinde kullanılan erişim belirleyiciler protected, private, public, internal'dır.
 Sınıfların ve üyelerinin erişilebilirliğini belirlerler.
@@ -315,3 +318,10 @@ kullanici.SetYas(25);
 kullanici.email = "nazbabaoglu@gmail.com";
 
 kullanici.BilgileriGoster();
+
+
+Hesapla h = new Hesapla();
+int toplam = h.topla(8, 4);
+Console.WriteLine("toplam: " + toplam);
+int carpim = h.carp(5, 6);
+Console.WriteLine("çarpım: " + carpim);
