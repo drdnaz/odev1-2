@@ -331,31 +331,55 @@ int carpim = h.carp(5, 6);
 Console.WriteLine("çarpım: " + carpim);
 
 
-Random rnd = new Random();  
-int randomNumber = rnd.Next(1,11);
-int guessNumber = 0;
-int guessCount = 0;
-Console.WriteLine("Bilgisayar 1 ile 10 arasında bir sayı tuttu. Tahmin et bakalım!");
+//Random rnd = new Random();  
+//int randomNumber = rnd.Next(1,11);
+//int guessNumber = 0;
+//int guessCount = 0;
+//Console.WriteLine("Bilgisayar 1 ile 10 arasında bir sayı tuttu. Tahmin et bakalım!");
 
-while (guessNumber != randomNumber) // Bu döngü kullanıcı doğru tahmin yapana kadar devam eder.
+//while (guessNumber != randomNumber) // Bu döngü kullanıcı doğru tahmin yapana kadar devam eder.
+//{
+//    Console.Write("Tahmininizi girin: ");
+//    guessNumber = Convert.ToInt32(Console.ReadLine()); // Hesap makinesi ödevinde öğrendiğimiz gibi kullanıcıdan tahmin alınır.
+//                                                       // İlk bu ödevden başlamışsanız hesap makinesinde zorlanmazsınız :)
+//    guessCount++;
+
+//    // if-else yapısı kullanarak kullanıcının tahminini kontrol edin ve büyük/küçük olduğunu belirtin.
+//    if (guessNumber < randomNumber)
+//    {
+//        Console.WriteLine("Daha büyük bir sayı tahmin edin");
+//    }
+//    else if (guessNumber > randomNumber)
+//    {
+//        Console.WriteLine("Daha küçük bir sayı tahmin edin");
+//    }
+//    else
+//    {
+//        Console.WriteLine($"Tebrikler! {guessCount}. tahminde doğru sayıyı buldunuz.");
+//    }
+//}
+
+
+
+
+    int sayi = 5;
+
+    while (sayi < 5)
+    {
+        Console.WriteLine("While Döngüsü: " + sayi);
+        sayi++;
+    }
+
+    Console.WriteLine("While döngüsü tamamlandı.");
+
+
+int sayi2 = 5;
+
+do
 {
-    Console.Write("Tahmininizi girin: ");
-    guessNumber = Convert.ToInt32(Console.ReadLine()); // Hesap makinesi ödevinde öğrendiğimiz gibi kullanıcıdan tahmin alınır.
-                                                       // İlk bu ödevden başlamışsanız hesap makinesinde zorlanmazsınız :)
-    guessCount++;
-
-    // if-else yapısı kullanarak kullanıcının tahminini kontrol edin ve büyük/küçük olduğunu belirtin.
-    if (guessNumber < randomNumber)
-    {
-        Console.WriteLine("Daha büyük bir sayı tahmin edin");
-    }
-    else if (guessNumber > randomNumber)
-    {
-        Console.WriteLine("Daha küçük bir sayı tahmin edin");
-    }
-    else
-    {
-        Console.WriteLine($"Tebrikler! {guessCount}. tahminde doğru sayıyı buldunuz.");
-    }
+    Console.WriteLine("Do-While Döngüsü: " + sayi);
+    sayi++;
 }
-        
+while (sayi2 < 5);
+
+Console.WriteLine("Do-While döngüsü tamamlandı.");

@@ -28,5 +28,21 @@ namespace CMT17OOP.Classes
         {
             Console.WriteLine(" " + arabaAdi + " " + vites);   
         }
+  
+   
+        public string ArabaDurumu(int yas)
+        {
+            if (yas >= 0 && yas < 10)
+                return "Arabanız yeni";
+            else if (yas >= 10 && yas < 20)
+                return "Servise götürmeniz gerekebilir";
+            else if (yas >= 20 && yas < 30)
+                return "Arabanız hurdaya çıkabilir";
+            else
+                return "Ya hiç üretilmedi ya da trafikten men edilmiştir";
+        }
     }
+
+
+
 }
