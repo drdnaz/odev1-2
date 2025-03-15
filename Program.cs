@@ -23,11 +23,11 @@ i.uyu("hakan","yılmaz");
 i.uyu(i.adi,i.soyadi);
 
 
-Araba araba = new Araba();
-araba.model = "bmw";
-araba.rengi = "siyah";
-araba.arabaAdi = "bugatti";
-araba.git(araba.model, araba.rengi);
+//Araba araba = new Araba();
+//araba.Model = "bmw";
+//araba.rengi = "siyah";
+//araba.arabaAdi = "bugatti";
+//araba.git(araba.Model, araba.rengi);
 
 
 
@@ -63,31 +63,31 @@ b.oku(b.adi);
 Cocuk c = new Cocuk();
 c.ekranaYaz("ibrahim", "gökyar");
 
-Bmw bm = new Bmw();
-bm.ekranaYaz("Bmw", "X5");
-bm.cıktı("bmw", "Düz vitestir.");
-bm.ucabilir("bmw");
-bm.yuzebilir("bmw");
-bm.hızlıGit("bmw");
+//Bmw bm = new Bmw();
+//bm.ekranaYaz("Bmw", "X5");
+//bm.cıktı("bmw", "Düz vitestir.");
+//bm.ucabilir("bmw");
+//bm.yuzebilir("bmw");
+//bm.hızlıGit("bmw");
 
-Mercedes me = new Mercedes();
-me.ekranaYaz("Mercedes", "xl");
-me.hızlıGit("mercedes");
-me.yuzebilir("mercedes");
+//Mercedes me = new Mercedes();
+//me.ekranaYaz("Mercedes", "xl");
+//me.hızlıGit("mercedes");
+//me.yuzebilir("mercedes");
 
-me.cıktı("Mercedes", "otomatik vitestir.");
-Porche p = new Porche();
-p.hızlıGit("porche");
+//me.cıktı("Mercedes", "otomatik vitestir.");
+//Porche p = new Porche();
+//p.hızlıGit("porche");
 
-p.ekranaYaz("porshe", "X5");
-p.cıktı("porshe", "otomatik vitestir.");
-Togg t = new Togg();
-t.cıktı("Togg", "otamatik vitestir.");
-Toyota ty = new Toyota();
-ty.cıktı("Toyota", "düz vitestir.");
+//p.ekranaYaz("porshe", "X5");
+//p.cıktı("porshe", "otomatik vitestir.");
+//Togg t = new Togg();
+//t.cıktı("Togg", "otamatik vitestir.");
+//Toyota ty = new Toyota();
+//ty.cıktı("Toyota", "düz vitestir.");
 
-Auidi ai = new Auidi();
-ai.cıktı("Auidi", "otomatik vitestir.");
+//Auidi ai = new Auidi();
+//ai.cıktı("Auidi", "otomatik vitestir.");
 
 
 AkilliCocuk ak = new AkilliCocuk();
@@ -110,18 +110,18 @@ us.ehliyetAl("Mehmet");
 HiperAktifCocuk hp = new HiperAktifCocuk();
 hp.ehliyetAl("Hüseyin");
 
-// abstarcct classların nesnesi oluşturulamaz.
-GenelMudur gm = new GenelMudur();   
-Mudur mü = new Mudur();
-Programcı pr = new Programcı();
-Stajyer s = new Stajyer();
+//// abstarcct classların nesnesi oluşturulamaz.
+//GenelMudur gm = new GenelMudur();
+//Mudur mü = new Mudur();
+//Programcı pr = new Programcı();
+//Stajyer s = new Stajyer();
 
 double toplamMaas = 0.0;
 
-toplamMaas += gm.maasinizNedir(); //toplamMaas = toplamMaas + gm.maasinizNedir();
-toplamMaas += mü.maasinizNedir();
-toplamMaas += pr.maasinizNedir();
-toplamMaas += s.maasinizNedir();
+//toplamMaas += gm.maasinizNedir(); //toplamMaas = toplamMaas + gm.maasinizNedir();
+//toplamMaas += mü.maasinizNedir();
+//toplamMaas += pr.maasinizNedir();
+//toplamMaas += s.maasinizNedir();
 
 Console.WriteLine("Toplam : " + toplamMaas + " TL maaş alıyorlar");
 
@@ -383,3 +383,24 @@ do
 while (sayi2 < 5);
 
 Console.WriteLine("Do-While döngüsü tamamlandı.");
+
+
+    
+        List<Araba> arabalar = new List<Araba>
+        {
+            new Araba("Toyota", "Corolla", 6.5, 500),
+            new Araba("Volkswagen", "Golf", 7.2, 400),
+            new Araba("Honda", "Civic", 6.8, 600)
+        };
+
+        double toplamTuketim = 0;
+
+        Console.WriteLine("Araba Bilgileri:\n");
+        foreach (var araba in arabalar)
+        {
+            araba.BilgileriYazdir();
+            toplamTuketim += araba.BenzinTuketimiHesapla();
+        }
+
+        Console.WriteLine($"\nToplam Benzin Tüketimi: {toplamTuketim} litre");
+    

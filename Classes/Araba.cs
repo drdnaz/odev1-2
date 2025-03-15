@@ -10,10 +10,37 @@ namespace CMT17OOP.Classes
     public class Araba
     {
         public string vites;
-        public string marka;    
-        public string model;
+        public string Marka { get; set; }    
+        public string Model { get; set; }
+        public double YakıtTüketimi { get; protected set; }
+     public double Mesafe { get; set; }
         public string rengi;
         public string  arabaAdi;
+
+
+        public Araba(string marka, string model, double tuketim, double mesafe)
+        {
+            Marka = marka;
+            Model = model;
+            YakıtTüketimi = tuketim;
+            Mesafe = mesafe;
+        }
+
+        
+        // Benzin tüketimini hesaplayan metod
+        public double BenzinTuketimiHesapla()
+        {
+            return (YakıtTüketimi * Mesafe) / 100;
+        }
+
+        // Araba bilgilerini yazdıran metod
+        public void BilgileriYazdir()
+        {
+            Console.WriteLine($"{Marka} {Model} - {Mesafe} km - {YakıtTüketimi} L/100km");
+        }
+    
+   
+
         public void git(string model, string rengi)
         {
             Console.WriteLine(model +" " +  rengi + " " + "gidiyor..");
@@ -29,6 +56,10 @@ namespace CMT17OOP.Classes
             Console.WriteLine(" " + arabaAdi + " " + vites);   
         }
   
+
+
+
+
    
         public string ArabaDurumu(int yas)
         {

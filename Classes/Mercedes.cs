@@ -10,6 +10,12 @@ namespace CMT17OOP.Classes
     public class Mercedes : Araba, IHızlıGit, IYuzebilir
 
     {
+        
+
+        public Mercedes(string marka, string model, double tuketim, double mesafe) : base(marka, model, tuketim, mesafe)
+        {
+        }
+
         public void hızlıGit(string isim)
         {
             Console.WriteLine(isim + " "+ " çok hızlı gidiyor..");

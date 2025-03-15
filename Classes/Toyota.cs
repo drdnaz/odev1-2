@@ -8,5 +8,9 @@ namespace CMT17OOP.Classes
 {
     public class Toyota : Araba
     {
+
+        public Toyota(string marka, string model, double tuketim, double mesafe) : base(marka, model, tuketim, mesafe)
+        {
+        }
     }
 }
