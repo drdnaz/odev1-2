@@ -160,26 +160,30 @@ for (int sayac2 = 0; sayac2 < gunler.Length; sayac2++)
 
 //if(kosul) { yapılması gereken neyse o yapılır  } else if(kosul) { neyse yapılacak işlemler yapılır  }  else { yapılması gereken neyse o yapılır   }
 int yas = 19;
-if(yas >0 && yas <= 18)
+if (yas > 0 && yas <= 18)
 {
     Console.WriteLine("küçüksünüz");
 
 }
-else if (yas> 18 && yas<= 35) {
+else if (yas > 18 && yas <= 35)
+{
     Console.WriteLine("gençsiniz");
 }
-else if (yas>35 && yas <= 55)
+else if (yas > 35 && yas <= 55)
 {
     Console.WriteLine("yetişkinsiniz");
 
-}else if (yas>55 && yas<=75)
+}
+else if (yas > 55 && yas <= 75)
 {
     Console.WriteLine("yaşlısınız");
-}else if (yas>75 && yas <=99)
+}
+else if (yas > 75 && yas <= 99)
 {
     Console.WriteLine("çok yaşlısınız");
 
- }else
+}
+else
 {
     Console.WriteLine("hiç doğmadınız ya da çoktan öldünüz!!");
 
