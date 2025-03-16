@@ -32,6 +32,11 @@ namespace CMT17OOP.Classes
             return sayi1 / sayi2;
         }
     }
+
+
+  
+
+
 }
     
 
