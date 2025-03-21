@@ -43,7 +43,8 @@ namespace CMT17OOP.Classes
             int sonuc = 0;
             sonuc = DateTime.Now.Year - dogumYili;
             return sonuc;
-        }
+            //DateTime.Now.Year = BULUNDURĞUMUZ YIL
+            }
 
     }
 

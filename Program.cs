@@ -11,17 +11,38 @@ using System.Diagnostics.Metrics;
 
 Console.WriteLine("Hello, World!");
 
-////bir class tan nesne oluşturma
-////ClassIsmi nesneAdi = new ClassIsmi();
-//Insan i = new Insan();
-//i.adi = "ibrahim";
-//i.soyadi = "gökyar";
-//i.yas = 46;
-//i.maas = 3.14;
-//i.cinsiyet = false;
-////uyu metodunu çağırdık
-//i.uyu("hakan","yılmaz");
-//i.uyu(i.adi,i.soyadi);
+//bir class tan nesne oluşturma
+//ClassIsmi nesneAdi = new ClassIsmi();
+Insan i = new Insan();
+i.adi = "ibrahim";
+i.soyadi = "gökyar";
+i.yas = 46;
+i.maas = 3.14;
+i.cinsiyet = false;
+//uyu metodunu çağırdık
+i.uyu("hakan", "yılmaz");
+i.uyu(i.adi, i.soyadi);
+int gelenyas = i.yasHesapla(1980);
+//Diyorum ki insan classının içinmdeki yasHesapla metodunu cağır ona ona 1980 gönder buradan gelen sonucu da gelenyas değişkenine aktar.
+Console.WriteLine("yaşınız: " + gelenyas);
+
+
+
+
+
+Araba hondaCivic = new Araba("Honda", "civic", 4, 4, "sedan", 200000);
+
+hondaCivic.BilgiGosterr();
+Console.ReadLine();
+
+
+
+
+
+
+
+
+
 
 
 ////Araba araba = new Araba();
@@ -144,7 +165,7 @@ Console.WriteLine("Hello, World!");
 
 ////1. aynı türden verileri bir isim altında tutmamızı sağlar
 ////hangiturdeveri[] diziAdi = new hangiturdeveri[7];
-////dizilerin ilk elamanı sıfırdan 
+////dizilerin ilk elamanı sıfırdan başlar.
 //string[] gunler = new string[7];
 //gunler[0] = "pazartesi";
 //gunler[1] = "salı";
@@ -407,21 +428,28 @@ Console.WriteLine("Hello, World!");
 
 
 
-int[] numbers = new int[5];
-int summ = 0;
+//int[] numbers = new int[5];
+//int summ = 0;
 
 
-for (int i = 0; i < numbers.Length; i++)
-{
-    Console.WriteLine($"{i + 1}. sayiyi girin: ");
-    numbers[i] = Convert.ToInt32(Console.ReadLine());
+//for (int a = 0; a < numbers.Length; a++)
+//{
+//    Console.WriteLine($"{a + 1}. sayiyi girin: ");
+//    numbers[a] = Convert.ToInt32(Console.ReadLine());
 
-}
+//}
 
-foreach (int number in numbers)
-    {
-    summ += number;
+//foreach (int number in numbers)
+//    {
+//    summ += number;
 
-}
-double average = summ / 5.0;
-Console.WriteLine($"toplam: {summ}" + $"ortalama:  {average}" );
+//}
+//double average = summ / 5.0;
+//Console.WriteLine($"toplam: {summ}" + $"ortalama:  {average}" );
+
+
+// for döngüsü tekrar eden işlemler için kullanabiliriz.
+// for(int sayac =0; sayac <10; sayac ++)
+//{ yapılması gereken işlemler neyse onu yazarız}
+
+

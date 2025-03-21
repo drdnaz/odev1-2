@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace CMT17OOP.Classes
 {
-    public class Auidi : Araba
+    public class Kapi
     {
-        public Auidi(string marka, string model, double tuketim, double mesafe) : base(marka, model, tuketim, mesafe)
+
+        public int KapiSayisi;
+
+
+        public Kapi(int kapiSayisi)
         {
+            KapiSayisi = kapiSayisi;
         }
+
     }
 }
