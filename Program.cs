@@ -9,31 +9,31 @@ using CM17OOP.Classes.Matematik;
 using System.Diagnostics.Metrics;
 
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
-//bir class tan nesne oluşturma
-//ClassIsmi nesneAdi = new ClassIsmi();
-Insan i = new Insan();
-i.adi = "ibrahim";
-i.soyadi = "gökyar";
-i.yas = 46;
-i.maas = 3.14;
-i.cinsiyet = false;
-//uyu metodunu çağırdık
-i.uyu("hakan", "yılmaz");
-i.uyu(i.adi, i.soyadi);
-int gelenyas = i.yasHesapla(1980);
-//Diyorum ki insan classının içinmdeki yasHesapla metodunu cağır ona ona 1980 gönder buradan gelen sonucu da gelenyas değişkenine aktar.
-Console.WriteLine("yaşınız: " + gelenyas);
-
-
+////bir class tan nesne oluşturma
+////ClassIsmi nesneAdi = new ClassIsmi();
+//Insan i = new Insan();
+//i.adi = "ibrahim";
+//i.soyadi = "gökyar";
+//i.yas = 46;
+//i.maas = 3.14;
+//i.cinsiyet = false;
+////uyu metodunu çağırdık
+//i.uyu("hakan", "yılmaz");
+//i.uyu(i.adi, i.soyadi);
+//int gelenyas = i.yasHesapla(1980);
+////Diyorum ki insan classının içinmdeki yasHesapla metodunu cağır ona ona 1980 gönder buradan gelen sonucu da gelenyas değişkenine aktar.
+//Console.WriteLine("yaşınız: " + gelenyas);
 
 
 
-Araba hondaCivic = new Araba("Honda", "civic", 4, 4, "sedan", 200000);
 
-hondaCivic.BilgiGosterr();
-Console.ReadLine();
+
+//Araba hondaCivic = new Araba("Honda", "civic", 4, 4, "sedan", 200000);
+
+//hondaCivic.BilgiGosterr();
+//Console.ReadLine();
 
 
 
@@ -53,7 +53,37 @@ Console.ReadLine();
 
 
 
-//Matematik m =new Matematik();  
+Matematik m = new Matematik();
+
+Console.WriteLine("Toplama işlemleri");
+int sonuc1 = m.Topla(5, 5);
+Console.WriteLine("5+5= " +sonuc1);
+
+int sonuc2 = m.Topla(6, 5, 3);
+Console.WriteLine("6+5+3" +sonuc2);
+
+double sonuc3 = m.Topla(10.1, 5.2);
+Console.WriteLine("10.1+5.2= "+ sonuc3);
+
+double sonuc4 = m.Topla(5.5, 3.2, 4.2);
+Console.WriteLine("5.5+3.2+4.2= "+ sonuc4);
+
+Console.WriteLine("ÇARPMA İŞLEMLERİ");
+
+int sonuc5 = m.Carp(5, 2);
+Console.WriteLine("5*2= "+sonuc5);
+
+int sonuc6=m.Carp(6, 2, 3);
+Console.WriteLine("6*2*3= " + sonuc6);
+
+double sonuc7 = m.Carp(5.5, 10.3);
+Console.WriteLine(".5*10.3= " + sonuc7);
+
+double sonuc8 = m.Carp(5.5, 4.3, 5.4);
+Console.WriteLine("5.5*4.3*5.4= " + sonuc8);
+
+
+
 //m.topla(5,5);
 ////1. yöntem
 //int gelenDeger = m.topla(5,5);
