@@ -1,0 +1,17 @@
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\bin\Debug\net8.0-windows\WinFormApp.exe
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\bin\Debug\net8.0-windows\WinFormApp.deps.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\bin\Debug\net8.0-windows\WinFormApp.runtimeconfig.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\bin\Debug\net8.0-windows\WinFormApp.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\bin\Debug\net8.0-windows\WinFormApp.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.Form1.resources
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.csproj.GenerateResource.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.AssemblyInfoInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.AssemblyInfo.cs
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.sourcelink.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\refint\WinFormApp.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\WinFormApp.genruntimeconfig.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\WinFormApp\WinFormApp\obj\Debug\net8.0-windows\ref\WinFormApp.dll

@@ -1,0 +1,17 @@
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\bin\Debug\net8.0-windows\OdemeSistem.exe
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\bin\Debug\net8.0-windows\OdemeSistem.deps.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\bin\Debug\net8.0-windows\OdemeSistem.runtimeconfig.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\bin\Debug\net8.0-windows\OdemeSistem.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\bin\Debug\net8.0-windows\OdemeSistem.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.Form1.resources
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.csproj.GenerateResource.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.AssemblyInfoInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.AssemblyInfo.cs
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.csproj.CoreCompileInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.sourcelink.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\refint\OdemeSistem.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\OdemeSistem.genruntimeconfig.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\OdemeSistem\OdemeSistem\obj\Debug\net8.0-windows\ref\OdemeSistem.dll

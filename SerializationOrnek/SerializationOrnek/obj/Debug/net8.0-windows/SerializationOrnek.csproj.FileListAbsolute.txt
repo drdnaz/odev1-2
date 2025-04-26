@@ -1,0 +1,17 @@
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\bin\Debug\net8.0-windows\SerializationOrnek.exe
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\bin\Debug\net8.0-windows\SerializationOrnek.deps.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\bin\Debug\net8.0-windows\SerializationOrnek.runtimeconfig.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\bin\Debug\net8.0-windows\SerializationOrnek.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\bin\Debug\net8.0-windows\SerializationOrnek.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.Form1.resources
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.csproj.GenerateResource.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.AssemblyInfoInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.AssemblyInfo.cs
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.csproj.CoreCompileInputs.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.sourcelink.json
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\refint\SerializationOrnek.dll
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.pdb
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\SerializationOrnek.genruntimeconfig.cache
+C:\Users\durda\source\repos\CMT17OOP\CMT17OOP\SerializationOrnek\SerializationOrnek\obj\Debug\net8.0-windows\ref\SerializationOrnek.dll

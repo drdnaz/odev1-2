@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B073E6E-632A-4CA1-93AE-884509D5BE26}|SerializationOrnek\\SerializationOrnek.csproj|c:\\users\\durda\\source\\repos\\cmt17oop\\cmt17oop\\serializationornek\\serializationornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B073E6E-632A-4CA1-93AE-884509D5BE26}|SerializationOrnek\\SerializationOrnek.csproj|solutionrelative:serializationornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B073E6E-632A-4CA1-93AE-884509D5BE26}|SerializationOrnek\\SerializationOrnek.csproj|c:\\users\\durda\\source\\repos\\cmt17oop\\cmt17oop\\serializationornek\\serializationornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B073E6E-632A-4CA1-93AE-884509D5BE26}|SerializationOrnek\\SerializationOrnek.csproj|solutionrelative:serializationornek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B073E6E-632A-4CA1-93AE-884509D5BE26}|SerializationOrnek\\SerializationOrnek.csproj|c:\\users\\durda\\source\\repos\\cmt17oop\\cmt17oop\\serializationornek\\serializationornek\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B073E6E-632A-4CA1-93AE-884509D5BE26}|SerializationOrnek\\SerializationOrnek.csproj|solutionrelative:serializationornek\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\SerializationOrnek\\Form1.cs",
+              "RelativeDocumentMoniker": "SerializationOrnek\\Form1.cs",
+              "ToolTip": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\SerializationOrnek\\Form1.cs",
+              "RelativeToolTip": "SerializationOrnek\\Form1.cs",
+              "ViewState": "AgIAAC4AAAAAMDMzM7MRwEQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T19:34:55.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\SerializationOrnek\\Form1.cs",
+              "RelativeDocumentMoniker": "SerializationOrnek\\Form1.cs",
+              "ToolTip": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\SerializationOrnek\\Form1.cs [Design]",
+              "RelativeToolTip": "SerializationOrnek\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T19:32:25.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\SerializationOrnek\\Employee.cs",
+              "RelativeDocumentMoniker": "SerializationOrnek\\Employee.cs",
+              "ToolTip": "C:\\Users\\durda\\source\\repos\\CMT17OOP\\CMT17OOP\\SerializationOrnek\\SerializationOrnek\\Employee.cs",
+              "RelativeToolTip": "SerializationOrnek\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T19:41:07.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
